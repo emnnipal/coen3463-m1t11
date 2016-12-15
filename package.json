@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts" : {
+        "start": "node app.js"
+    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emnnipal/myapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emnnipal/myapp/issues"
+  },
+  "homepage": "https://github.com/emnnipal/myapp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
