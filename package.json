@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts" : {
+  "scripts": {
         "start": "node app.js"
-    }
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emnnipal/myapp.git"
-  },
+    },
   "author": "",
   "license": "ISC",
   "bugs": {
