@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css.css">
+	</head>
+	<body>
+    	<script>
+    		function mysend() {
+    			var x;
+    			x = document.getElementById("actcomment").value;
+    			if(x==""){	
+    				document.getElementById("actcomment").style.borderColor = "red";
+    				document.getElementById("status").style.color = "red";
+    				document.getElementById("status").innerHTML = "Please fill on this field";}
+    			else{
+    				window.alert("Sent!");}
+    		}
+
+    		function myclear(){
+    			document.getElementById("actcomment").style.borderColor = "";
+    		    document.getElementById("status").style.color = "";
+    		    document.getElementById("status").innerHTML = "";
+    		}
+    	</script>
+		<div class="header">
+		</div>
+
+		<div id="welcome">
+		<h1>Feedback</h1>
+		</div>
+
+		<div id="formsection">
+			<form>
+				<label  for="commentname">Name(Optional):</label><br>
+				<input id="commentname" type="text"><br>
+				<label for="actcomment">Comment: </label><br>
+				<textarea id="actcomment"></textarea><br>
+				<input id="clear" type="reset" Value="Clear" onclick="myclear()"></form>
+				<input id="send" type="submit" Value="Submit" onclick="mysend()">
+		</div>
+		<p id="status"></p>
+
+		<div id="back">
+		<a id ="backlink" href="index.html">Back</a>
+		</div>
+	</body>
+</html>
